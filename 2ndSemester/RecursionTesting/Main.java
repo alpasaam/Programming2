@@ -1,8 +1,8 @@
 public class Main {
-  public int n;
+  public BigInteger n;
 
   // recursive
-  public void factorial(double n) {
+  public void factorial(BigInteger n) {
     if (n == 1) {
       return n;
     } else {
@@ -11,7 +11,7 @@ public class Main {
   }
 
   // Traditional
-  public void tFactorial(double n) {
+  public void traditionalFactorial(BigInteger n) {
     for(int i = n; i <= 100; i++) {
       tFactorial = tFactorial * i;
     }
@@ -19,7 +19,7 @@ public class Main {
   }
 
   // Traditional Fibonacci
-  public void tFibonacci(double n) {
+  public void tFibonacci(BigInteger n) {
     if (n == 1 || n == 0) {
       return n;
     }
@@ -27,7 +27,7 @@ public class Main {
   }
 
   // Recursive Fibonacci
-  public void rFibonacci(double n) {
+  public void rFibonacci(BigInteger n) {
     if (n == 0) {
       return 0;
     }

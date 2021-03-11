@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    String aWord = "";
     PermutationIterator s = new PermutationIterator();
-    System.out.println(s.permutations("abc"));
+    Scanner in = new Scanner(System.in);
+    aWord = in.nextLine();
+    in.close();
+    System.out.println(s.permutations(aWord));
   }
 }

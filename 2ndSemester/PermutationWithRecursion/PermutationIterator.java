@@ -30,7 +30,6 @@ public class PermutationIterator {
       }
     }
    public PermutationIterator() {
-
    }
    //
    // public String printPermutn(String str, String ans) {
